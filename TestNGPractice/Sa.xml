@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Softassert">
+  <test thread-count="5" name="AssertTest">
+    <classes>
+      <class name="TestNGPractice.com.testng.SoftAssert"/>
+    </classes>
+  </test> <!-- AssertTest -->
+</suite> <!-- Softassert -->
