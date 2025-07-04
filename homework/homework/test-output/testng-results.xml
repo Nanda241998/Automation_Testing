@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-04T14:11:25 IST" name="GreenCartSuite" finished-at="2025-07-04T14:13:11 IST" duration-ms="106137">
+    <groups>
+    </groups>
+    <test started-at="2025-07-04T14:11:25 IST" name="TestcasesGreencart" finished-at="2025-07-04T14:13:11 IST" duration-ms="106137">
+      <class name="greenCarttestng.TestNGexecutionClass">
+        <test-method signature="verifyPage1()[pri:1, instance:greenCarttestng.TestNGexecutionClass@2c767a52]" started-at="2025-07-04T14:11:27 IST" name="verifyPage1" description="test is defined to verify that all webelements should be clickable" finished-at="2025-07-04T14:12:29 IST" duration-ms="62026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPage1 -->
+        <test-method signature="verifyPage2()[pri:2, instance:greenCarttestng.TestNGexecutionClass@2c767a52]" started-at="2025-07-04T14:12:32 IST" name="verifyPage2" description="test is defined to verify that search functionality working" finished-at="2025-07-04T14:12:58 IST" duration-ms="26143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPage2 -->
+        <test-method signature="verifyPage4()[pri:3, instance:greenCarttestng.TestNGexecutionClass@2c767a52]" started-at="2025-07-04T14:13:00 IST" name="verifyPage4" description="test is defined to verify that flights booking functionality working" finished-at="2025-07-04T14:13:08 IST" duration-ms="7973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPage4 -->
+      </class> <!-- greenCarttestng.TestNGexecutionClass -->
+    </test> <!-- TestcasesGreencart -->
+  </suite> <!-- GreenCartSuite -->
+</testng-results>
