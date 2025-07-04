@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://Greencart.org/testng-1.0.dtd">
+<suite name="GreenCartSuite">
+  <test thread-count="5" name="TestCaseGreenCart">
+    <classes>
+      <class name="greenCarttestng.TestNGexecutionClass"/>
+    </classes>
+  </test> <!-- TestCaseGreenCart -->
+</suite> <!-- GreenCartSuite -->
