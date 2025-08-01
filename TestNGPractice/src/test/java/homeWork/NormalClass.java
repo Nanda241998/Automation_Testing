@@ -1,6 +1,8 @@
 package homeWork;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.Assert;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -12,7 +14,9 @@ public class NormalClass extends Base_class implements ITestListener {
 	@Override
 	public void onTestStart(ITestResult result) {
 		 act=new Actions(driver);
+
 		
+			
 	}
 
 	@Override

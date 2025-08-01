@@ -53,7 +53,7 @@ public class Base_class {
 		TakesScreenshot sc_01 = (TakesScreenshot) driver;
 		File source1 = sc_01.getScreenshotAs(OutputType.FILE);
 
-		File target1 = new File(projectpath + "\\ReportsSc\\" + Screenshot_name_01 + ".png");
+		File target1 = new File(projectpath + "\\Screenshots\\" + Screenshot_name_01 + ".png");
 
 		FileHandler.copy(source1, target1);
 

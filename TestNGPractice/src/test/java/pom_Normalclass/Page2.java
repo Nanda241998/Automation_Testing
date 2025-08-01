@@ -22,7 +22,7 @@ public class Page2 extends NormalClass{
 	public void actions() {
 		login.click();
 		JavaScriptExecutor("window.scrollBy(0,300)");
-		email.sendKeys("1241159190174777yyyyyy@gmail.com");
+		email.sendKeys("124615974777yyyy@gmail.com");
 		accCreate.click();
 	}
 	
